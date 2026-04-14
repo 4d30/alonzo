@@ -28,9 +28,3 @@ def branch(pred, f, g):
             return g(x)
         return safe_call(choose, x)
     return h
-
-#from operator import call
-#def juxt(funcs, x):
-#    if x is not None:
-#        return tuple(map(call, funcs, repeat(x)))
-#    return None
