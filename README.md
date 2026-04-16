@@ -2,13 +2,13 @@
 A lightweight Python library providing high-order functions for elegant data pipelines. Named in honor of Alonzo Church, this module focuses on combinators that allow for the composition of logic through pure functional patterns.
 
 ## Features
-Pipeline Composition: Chain functions together without nested parentheses.
+- Pipeline Composition: Chain functions together without nested parentheses.
 
-Parallel Execution: Apply multiple functions to a single input simultaneously.
+- Parallel Execution: Apply multiple functions to a single input simultaneously.
 
-Safe Execution: Built-in None handling to prevent AttributeError or TypeError in long chains.
+- Safe Execution: Built-in None handling to prevent AttributeError or TypeError in long chains.
 
-Lazy-Ready: Built on top of functools and itertools for efficiency.
+- Lazy-Ready: Built on top of functools and itertools for efficiency.
 
 ## Usage
 1. Sequential Pipelines
